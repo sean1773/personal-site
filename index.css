@@ -1,0 +1,71 @@
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* Navigation Bar */
+
+.nav-background {
+    margin: 0%;
+}
+
+.top-nav-container {
+    position: fixed;
+    top: 0;
+    flex-direction: row;
+    width: 100%;
+    display: flex;
+    background-color: #EEEEEE;
+    margin: 0%;
+    border: 0;
+}
+
+.nav-buttons {
+    width: 100%;
+    list-style-type: none;
+    padding-left: 2%;
+    padding-right: 2%;
+    justify-content: space-evenly;
+    flex-direction: row;
+    display: inline-flex;
+}
+
+.nav-logo {
+    position: absolute;
+    left: 50%;
+}
+
+.left-buttons {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+}
+
+.right-buttons {
+    justify-content: flex-end;
+    width: 100%;
+    display: inline-flex;
+}
+
+.nav-list {
+    padding: 0px 15px 0px 15px;
+}
+
+
+/* Hero Box */
+
+.hero-box {
+    width: 100%;
+    margin-top: 5%;
+    flex-direction: row;
+    display: inline-flex;
+    justify-content: space-evenly;
+    background-color: ;
+}
+
+.left-hero-box {
+    width: 50%;
+}
