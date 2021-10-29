@@ -8,17 +8,16 @@ body {
 /* Navigation Bar */
 
 .nav-container {
-    width: 100%;
-    border: 3px solid teal;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
+    padding: 2% 2% 2% 2%;
 }
 
 .left-nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: left;
     width: 33%;
 }
 
@@ -29,13 +28,32 @@ body {
 
 .right-nav {
     display: flex;
-    justify-content: space-evenly;
-    width: 33%;
+    justify-content: right;
 }
 
 .nav-button {
-    padding: 0 5% 0 5%;
+    padding: 2em 5em 2em 5em;
+    white-space: nowrap;
 }
 
 
 /* Hero Box */
+
+.hero-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hello-world-carousel {
+    font-family: Roboto Mono;
+}
+
+.intro-message h1 {
+    font-family: Roboto;
+}
+
+.intro-message p {
+    font-family: Montserrat;
+}
